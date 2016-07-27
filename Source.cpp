@@ -9,6 +9,7 @@
 #include "opencv2/highgui/highgui.hpp"
 #include <stdlib.h>
 #include <stdio.h>
+#include <iostream>
 
 using namespace cv;
 
@@ -33,10 +34,10 @@ int main(int, char** argv)
 {
 	cv::Mat img = cv::imread(argv[1], -1);
 	if (img.empty()) return -1;
-	cv::namedWindow("Example1", cv::WINDOW_AUTOSIZE);
-	cv::imshow("Example1", img);
+	cv::namedWindow("Testing", cv::WINDOW_AUTOSIZE);
+	cv::imshow("Testing", img);
 	cv::waitKey(0);
-	cv::destroyWindow("Example1");
+	cv::destroyWindow("Testing");
 	////Load an image
 	//src = imread(argv[1]);
 
