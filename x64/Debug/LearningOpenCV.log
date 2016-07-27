@@ -1,2 +1,0 @@
-﻿Source.obj : error LNK2005: main already defined in firstCV.obj
-c:\users\kc\documents\visual studio 2015\Projects\LearningOpenCV\x64\Debug\LearningOpenCV.exe : fatal error LNK1169: one or more multiply defined symbols found
